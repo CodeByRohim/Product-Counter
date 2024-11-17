@@ -1,0 +1,66 @@
+ @media (max-width: 575px) {
+  #third .card{
+    flex-wrap: wrap;
+  border: none;
+  margin: 0 10px 0 0;
+  }
+  #third .card-parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 50px 20px;
+}
+  #third .arrivals {
+    font-size: 30px;
+    padding-top: 20px;
+}
+.card-text1 {
+  display: flex;
+  justify-content: center;
+  font-size: .8rem;
+}
+#third img {
+  width: 295px;
+  height: 140px;
+  border-radius: 20px;
+  background: #f0eeed;
+}
+#third .card-title { 
+  font-weight: 600;
+  font-size: 15px;
+}
+.fa {
+  /* font: normal normal normal 1px/1 FontAwesome; */
+  font-size: 13px;
+}
+#third .rating {
+  font-size: .9rem;
+  padding-left: .6rem;
+}
+#third .outoffive{
+  font-size: 16px;
+}
+#third .card-text {
+  font-size: 1rem;
+}
+#third .card-text .rate-cutter { 
+  font-size: 1rem;
+
+}
+#third .card-text .percentage {
+  padding: 8px 15px;
+  margin-left: 24px;
+  font-size: 10px;
+}
+.counter {
+  margin: 10px auto;
+}
+.counter button {
+  width: 20%;
+  font-size: 1rem;
+}
+.add-cart {
+  font-size: 15px;
+  margin: 8px auto;
+}
+} 
